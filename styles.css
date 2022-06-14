@@ -339,3 +339,49 @@ display: inline-block;
 
     color: var(--white);
 }
+.plans-product {
+    text-align: center;
+
+}
+.plans-product .title-plans {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.content-plans {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+    margin: auto 10px;
+    
+}
+.value--zone{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin-top: 50px;
+    position: relative;
+
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+}
+.text--value_floating {
+    background-color: var(--bitcoin-orange);
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    padding-top: 7px;
+    font-size: 1.2rem;
+    position: absolute;
+    border-radius: 8px;
+
+    font-weight: bold;
+    color: var(--white);
+
+    left: 53px;
+    top: -15px;
+}
+.plans--value h2 {
+    margin-top: 30px;
+}
