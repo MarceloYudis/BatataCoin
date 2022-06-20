@@ -380,7 +380,7 @@ display: inline-block;
     font-weight: bold;
     color: var(--white);
 
-    left: 53px;
+    left:  calc(50% - 50px);
     top: -15px;
 }
 .plans--value h2 {
@@ -399,7 +399,7 @@ display: inline-block;
 .container--value span {
     position: absolute;
     top: 11px;
-    left: 63px;
+    left: calc(50% - 40px)
 }
 .plans--value .aclaration-descount {
     font-size: 1.2rem;
@@ -414,25 +414,34 @@ display: inline-block;
     width: 150px;
     height: 50px;
     border: 2px solid #F7931A;
-    position: absolute;
-    padding-top: 15px;
-    text-align: left;
+    border-radius: 4px;
+    background-color: var(--off-white);
 
- 
+    position: absolute;
+    padding-top: 14px;
+    padding-left: 1px;
+    margin-top: 15px;
+    left: calc(50% - 80px);
+
 }
 .plans--value .bottom-confirm  .bottom__content {
     font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.8rem;
-    display: inline-block;
-    left: 2px;
- 
+    position: relative;
+    left: -10px; 
+    color: var(--warm-black);
 
 }
 .plans--value .bottom-confirm .bottom__arrow--right {
     background-image: url('./assets/icons/orange-right-arrow.svg');
     background-repeat: no-repeat;
     background-size: cover;
+
     display: inline-block;
-   
+    width: 20px;
+    height: 20px;
+   vertical-align: text-bottom;
+    position: absolute;
+    
 }
