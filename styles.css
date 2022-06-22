@@ -446,6 +446,33 @@ display: inline-block;
     
 }
 
-.plan-value-Alpha {
-    
+.plan-value-Alpha h2 {
+
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}   
+.plan-value-Alpha .container--value_alpha span {
+    font-size: 1.2rem;
+
+}
+
+.plan-value-Alpha .container--value_alpha p {
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+}
+
+.plan-value-Alpha  .alpha-description {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color:#757575;
+}
+.plan-value-Alpha  .alpha-confirm {
+
+}
+.alpha-content {
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
 }
