@@ -359,6 +359,7 @@ display: inline-block;
 }
 .value--zone{
     display: inline-block;
+    scroll-snap-align: center;
     width: 70%;
     height: 250px;
     margin-top: 50px;
@@ -528,4 +529,7 @@ display: inline-block;
      
         vertical-align: text-bottom;
         position: absolute;
+    }
+    .plans-product .plans-product--container {
+    
     }
