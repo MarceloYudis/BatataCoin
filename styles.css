@@ -476,3 +476,56 @@ display: inline-block;
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
+.containeir--price_month p {
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+}
+.description--price {
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.45rem;
+    padding-right: 15px;
+    padding-left: 15px;
+}  /*
+display: inline-block;
+    width: 70%;
+    height: 250px;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 16%);
+    border-radius: 8px;*/
+
+    .price--month    .bottom-confirm {
+        width: 150px;
+        height: 50px;
+        border: 2px solid #F7931A;
+        border-radius: 4px;
+        background-color: var(--off-white);
+        position: absolute;
+        padding-top: 14px;
+        padding-left: 1px;
+        margin-top: 15px;
+        left: calc(50% - 80px);
+    }
+    .price--month    .bottom-confirm .bottom_month{
+        font-size: 1.4rem;
+        font-weight: bold;
+        line-height: 1.8rem;
+        position: relative;
+        left: -10px;
+        color: var(--warm-black);
+    }
+    .price--month    .bottom-confirm .bottom__arrow--right{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('./assets/icons/orange-right-arrow.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+        vertical-align: text-bottom;
+        position: absolute;
+    }
