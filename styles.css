@@ -359,14 +359,15 @@ display: inline-block;
 }
 .value--zone{
     display: inline-block;
-    scroll-snap-align: center;
     width: 70%;
+    min-width: 210px;
     height: 250px;
     margin-top: 50px;
     position: relative;
-
+    scroll-snap-align: center;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 8px;
+    
 }
 .text--value_floating {
     background-color: var(--bitcoin-orange);
@@ -531,5 +532,12 @@ display: inline-block;
         position: absolute;
     }
     .plans-product .plans-product--container {
-    
+    	display: flex;
+	overflow-x: scroll;
+    overflow-y: hidden;
+	overscroll-behavior-x:contain;
+	scroll-snap-type:  x proximity;
+	padding-top: 4rem;
+    gap: 75px;
+    padding: auto 20px;
     }
